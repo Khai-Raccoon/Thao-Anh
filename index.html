@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gourmet Traditional Restaurant</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/sForm.js"></script>
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        pagination: true, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: false,
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+$(window).load(function () {
+    $('.carousel1').carouFredSel({
+        auto: false,
+        prev: '.prev',
+        next: '.next',
+        width: 960,
+        items: {
+            visible: {
+                min: 1,
+                max: 4
+            },
+            height: 'auto',
+            width: 240,
+        },
+        responsive: false,
+        scroll: 1,
+        mousewheel: false,
+        swipe: {
+            onMouse: false,
+            onTouch: false
+        }
+    });
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="main">
+  <header>
+    <div class="container_12">
+      <div class="grid_12">
+        <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+        <div class="menu_block">
+          <nav>
+            <ul class="sf-menu">
+              <li class="current"><a href="index.html">Trang chủ</a></li>
+              <li class="with_ul"><a href="index.html">Chúng tôi</a>
+                <ul>
+                  <li><a href="#"> Ẩm thực</a></li>
+                  <li><a href="#">Đồ uống</a></li>
+                  <li><a href="#">Dịch vụ</a></li>
+                </ul>
+              </li>
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="index.html">nguyên liệu</a></li>
+              <li><a href="index.html">MÓn mới</a></li>
+              <li><a href="contacts.html">Liên hệ</a></li>
+            </ul>
+          </nav>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </header>
+  <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slide.jpg" alt=""></li>
+          <li><img src="images/slide1.jpg" alt=""></li>
+          <li class="mb0"><img src="images/slide2.jpg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content page1">
+    <div class="container_12">
+      <div class="grid_7">
+        <h2>Hân Hạnh Chào Mừng</h2>
+        <div class="page1_block col1"> <img src="images/welcome_img.png" alt="">
+          <div class="extra_wrapper">
+            <p><span class="col2"><a href="#">Chọn đây</a></span> để xem menu đầy đủ nhất của chúng tôi. </p>
+            Với món ăn phù hợp nhất cho các thực khách sành ăn với khẩu vị cao và khó tính nhất về thịt kids. <br>
+            <a href="#" class="btn">Xem thêm</a> </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="grid_5">
+        <h2>Đặc điểm</h2>
+        <ul class="list">
+          <li><a href="#">trẻ em dưới 13 tuổi free hoàn toàn</a></li>
+          <li><a href="#">Lời khuyến khích và chỉ dẫn từ chuyên gia</a></li>
+          <li><a href="#">phù hợp cho các thực khách muốn ăn uống budget</a></li>
+          <li><a href="#">Chọn khu vực tổ chức sự kiên phù hợp</a></li>
+          <li><a href="#">Danh sách cho các cty có sự kiện hợp tác</a></li>
+          <li><a href="#">Hổ trợ dịch vụ đám cưới </a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12">
+        <div class="hor_separator"></div>
+      </div>
+      <div class="grid_12">
+        <div class="car_wrap">
+          <h2>Đang trending</h2>
+          <a href="#" class="prev"></a><a href="#" class="next"></a>
+          <ul class="carousel1">
+            <li>
+              <div><img src="images/page1_img1.jpg" alt="">
+                <div class="col1 upp"> <a href="#">combo buổi sáng</a></div>
+                <span> trứng, thịt muối, rau củ và hạt hữu cơ</span>
+                <div class="price">69k</div>
+              </div>
+            </li>
+            <li>
+              <div><img src="images/page1_img2.jpg" alt="">
+                <div class="col1 upp"> <a href="#">combo buổi tối</a></div>
+                <span> Bít tết A5 thượng hạng, rau củ hữu cơ</span>
+                <div class="price">69k</div>
+              </div>
+            </li>
+            <li>
+              <div><img src="images/page1_img3.jpg" alt="">
+                <div class="col1 upp"> <a href="#">combo tráng miệng sáng</a></div>
+                <span> Bánh preem tart dâu kem all season</span>
+                <div class="price">696k</div>
+              </div>
+            </li>
+            <li>
+              <div><img src="images/page1_img4.jpg" alt="">
+                <div class="col1 upp"> <a href="#">combo tráng miệng tối</a></div>
+                <span> bánh child milk drune mùa hè tươi</span>
+                <div class="price">6969k</div>
+              </div>
+            </li>
+            <li>
+              <div><img src="images/page1_img3.jpg" alt="">
+                <div class="col1 upp"> <a href="#">combo bí ẩn đêm khuya</a></div>
+                <span> trẻ em, em bé, các loại trẻ trâu hữu cơ </span>
+                <div class="price">9999k</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="bottom_block">
+        <div class="grid_6">
+          <h3>Theo dõi ngay hôm nay</h3>
+          <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Trang chủ</a></li>
+              <li><a href="index.html">Chúng tôi</a></li>
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="index.html">món mới</a></li>
+              <li><a href="contacts.html">liên hệ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="grid_6">
+          <h3>Email của chúng tôi</h3>
+          <p class="col1">weeatkids@hotmail.com</p>
+          <form id="newsletter" action="#">
+            <div class="success">Your subscribe request has been sent!</div>
+            <label class="email">
+              <input type="email" value="Enter e-mail address" >
+              <a href="#" class="btn" data-type="submit">Đăng ký</a> <span class="error">*Không phải email chính thức.</span> </label>
+          </form>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12"> Nhà Hàng Gourmet Traditional &copy; 2024 | <a href="#">WeEaTkIdS</a> | Design by: <a href="https://giphy.com/explore/yas-queen-yas-quen">Nữ Hoàng Ý Là</a> </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
